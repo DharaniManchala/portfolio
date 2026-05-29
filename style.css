@@ -1385,3 +1385,155 @@ body{
 
     display: inline-block;
 }
+/* ================= CERTIFICATES SECTION ================= */
+
+.certificates{
+
+    padding: 100px 8%;
+}
+
+.certificates-container{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+
+    gap: 30px;
+}
+
+.certificate-card{
+
+    background: rgba(255,255,255,0.03);
+
+    border: 1px solid rgba(139,92,246,0.2);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.certificate-card:hover{
+
+    transform: translateY(-10px);
+
+    border-color: #8b5cf6;
+
+    box-shadow: 0 0 30px rgba(139,92,246,0.2);
+}
+
+.certificate-card h3{
+
+    color: white;
+
+    margin-bottom: 12px;
+
+    font-size: 24px;
+}
+
+.certificate-card p{
+
+    color: #cbd5e1;
+
+    margin-bottom: 20px;
+}
+
+.certificate-card a{
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    background: #8b5cf6;
+
+    color: white;
+
+    padding: 12px 22px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.certificate-card a:hover{
+
+    background: #7c3aed;
+
+    transform: scale(1.05);
+}
+/* CODING PROFILES */
+
+.coding-profiles{
+    padding: 100px 8%;
+}
+
+.coding-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 30px;
+}
+
+.coding-card{
+
+    background: rgba(255,255,255,0.03);
+
+    border: 1px solid rgba(139,92,246,0.2);
+
+    border-radius: 20px;
+
+    padding: 40px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.coding-card:hover{
+
+    transform: translateY(-10px);
+
+    border-color: #8b5cf6;
+
+    box-shadow: 0 0 30px rgba(139,92,246,0.3);
+}
+
+.coding-card i{
+
+    font-size: 50px;
+
+    color: #8b5cf6;
+
+    margin-bottom: 20px;
+}
+
+.coding-card h3{
+
+    color: white;
+
+    margin-bottom: 15px;
+}
+
+.coding-card p{
+
+    color: #cbd5e1;
+
+    margin-bottom: 20px;
+}
+
+.coding-card a{
+
+    text-decoration: none;
+
+    background: #8b5cf6;
+
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 10px;
+
+    display: inline-block;
+}
